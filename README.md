@@ -33,3 +33,7 @@ source myenv/bin/activate
 ```
 pip install -r requeriments.txt
 ```
+
+# Preview
+
+![preview 1](https://github.com/user-attachments/assets/2e51a284-d081-49ec-b4d9-58ab920a4405)
