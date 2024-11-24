@@ -1,0 +1,32 @@
+[MASTER]
+# Directorios o archivos que deben ser ignorados
+ignore=tests,docs
+
+# Establece el nivel de verificación de los mensajes
+max-line-length=100
+
+# Habilita/Deshabilita las advertencias de estilo, calidad de código, etc.
+disable=C0111, C0103
+
+[MESSAGES CONTROL]
+# Habilitar o deshabilitar mensajes de advertencia específicos
+enable=invalid-name
+disable=too-few-public-methods,missing-docstring
+
+[REPORTS]
+# Define si se deben generar informes completos, y si se debe mostrar el resumen
+output-format=text
+reports=no
+
+[TYPECHECK]
+# Definir la ruta de búsqueda de módulos para el análisis de tipos
+init-hook='import sys; import os; sys.path.append(os.getcwd())'
+
+[FORMAT]
+# Longitud máxima de una línea
+max-line-length=120
+
+[LOGGING]
+# Configura el estilo de las cadenas de formato en logging
+logging-modules=logging
+
